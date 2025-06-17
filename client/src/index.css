@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+  font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #23262f;
+}
+::-webkit-scrollbar-thumb {
+  background: #181a20;
+  border-radius: 8px;
+}
